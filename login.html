@@ -1,0 +1,76 @@
+<!doctype html>
+<htm>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="Background Video.mp4" type="video/mp4" />
+    </video>
+    <main>
+      <section>
+        <div>
+          <h2>Welcome Back</h2>
+          <h4>Your bookmark is right where you left it.</h4>
+        </div>
+      </section>
+      <section>
+        <div class="security">
+          <button class="email-username">
+            <div><i class="user"></i></div>
+            <label for="email"><div class="text"><p>Email/ Username</p></div></label>
+            <div></div>
+          </button>
+        </div>
+
+        <form action="./login.html">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+       
+
+          <input
+            type="password"
+            name="Password"
+            id="Password"
+            placeholder="Password"
+            required
+            min="8"
+            max="16"
+          />
+          <button>Step Back In</button>
+        </form>
+        <div class="sign-up">
+          <p id="sign-up">
+            Don't have an account?
+            <a href="signup.html"> <span>Step Inside</span></a>
+          </p>
+        </div>
+        <form action="./login.html">
+          <input
+            type="text"
+            name="Username"
+            id="Username"
+            placeholder="Username"
+          />
+        </form>
+
+        <form action="./login.html">
+          <input
+            type="password"
+            name="Password"
+            id="Password"
+            placeholder="Password"
+          />
+        </form>
+
+        <a href="Forget Password.html"><p>Forget Password</p></a>
+        <a href="home.html"> </a>
+      </section>
+    </main>
+  </body>
+</htm>
